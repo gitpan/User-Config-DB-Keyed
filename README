@@ -1,0 +1,34 @@
+User-Config-DB-Keyed version 0.01_01
+====================================
+
+To store the configuration-values for User::Config-users in a table of
+an relational database, this backend can be used.
+
+All values for all Users will be stored in the same database, indexed
+by the username and the name of the option.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+User::Config
+DBI
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011 by Benjamin Tietz
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
+at your option, any later version of Perl 5 you may have available.
+
+
